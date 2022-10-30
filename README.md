@@ -7,7 +7,7 @@ o vento sempre deixa rastros se tiver algo no caminho. e sempre tem.
 eu tirei da minha cabeça que eu tenho que fazer uma escolha naquele momento, por isso só uma passagem.</p>
 
 <p>
-**neutra.** </p>
+**neutra.**
 
 mas eu vejo o rastro como aprendizado. eu não tenho que fazer uma escolha naquele momento mas eu tô sempre aprendendo uma coisa.  
 ou ensinando.  
