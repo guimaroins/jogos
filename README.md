@@ -9,4 +9,4 @@ eu tirei da minha cabeça que eu tenho que fazer uma escolha naquele momento, po
 
 <p>mas eu vejo o rastro como aprendizado. eu não tenho que fazer uma escolha naquele momento mas eu tô sempre aprendendo uma coisa. </p>
 ou ensinando. </p>
-_(eu aprendo mais quando estou ensinando à aguém.)_
+_(eu aprendo mais quando estou ensinando à aguém.)
