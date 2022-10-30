@@ -8,5 +8,5 @@ as vezes eu sou só uma passagem.
 **neutra.**
 
 <p>mas eu vejo o rastro como aprendizado. eu não tenho que fazer uma escolha naquele momento mas eu tô sempre aprendendo uma coisa.
-<p>ou ensinando.
+<p>ou ensinando. </p>
 _(eu aprendo mais quando estou ensinando à aguém.)_
