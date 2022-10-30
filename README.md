@@ -8,7 +8,7 @@ eu tirei da minha cabeça que eu tenho que fazer uma escolha naquele momento, po
 
 **neutra.**
 
-<p>mas eu vejo o rastro como aprendizado. eu não tenho que fazer uma escolha naquele momento mas eu tô sempre aprendendo uma coisa. <p>
-ou ensinando. <p>
+<p>mas eu vejo o rastro como aprendizado. eu não tenho que fazer uma escolha naquele momento mas eu tô sempre aprendendo uma coisa.  
+ou ensinando.  
 
 _(eu aprendo mais quando estou ensinando à aguém.)_ 
