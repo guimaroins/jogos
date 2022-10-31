@@ -1,8 +1,6 @@
-~~~
+~~~c
 #include <SDL2/SDL.h>
- ~~~
 
-```
 int main (int argc, char* args[])
 {
     /* INICIALIZACAO */
@@ -12,11 +10,12 @@ int main (int argc, char* args[])
                          SDL_WINDOWPOS_UNDEFINED,
                          1000, 500, SDL_WINDOW_SHOWN);
     SDL_Renderer* ren = SDL_CreateRenderer(win, -1, 0);    
- ```
+    
 
     /* EXECUÇÃO */
     SDL_SetRenderDrawColor(ren, 0,0,50,0x00); /*janela*/
     SDL_RenderClear(ren);
+    
     
     /*AMONGAS*/
     SDL_SetRenderDrawColor(ren, 75, 0, 140,0x00);
@@ -150,3 +149,4 @@ int main (int argc, char* args[])
     SDL_DestroyWindow(win);
     SDL_Quit();
 }
+~~~
