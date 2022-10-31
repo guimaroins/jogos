@@ -3,7 +3,7 @@
 
 int main (int argc, char* args[])
 {
-    // INICIALIZACAO 
+    //INICIALIZACAO 
     SDL_Init(SDL_INIT_EVERYTHING);
     SDL_Window* win = SDL_CreateWindow("amongas",
                          SDL_WINDOWPOS_UNDEFINED,
@@ -12,12 +12,13 @@ int main (int argc, char* args[])
     SDL_Renderer* ren = SDL_CreateRenderer(win, -1, 0);    
     
 
-    // EXECUÇÃO 
+    //EXECUÇÃO 
     SDL_SetRenderDrawColor(ren, 0,0,50,0x00); //janela
     SDL_RenderClear(ren);
     
     
-    //AMONGAS
+    /*AMONGAS*/
+    //preenchimento
     SDL_SetRenderDrawColor(ren, 75, 0, 140,0x00);
     SDL_Rect p1 = {380, 114, 224, 240}; //preenchimento1
     SDL_RenderFillRect(ren, &p1);
@@ -30,6 +31,7 @@ int main (int argc, char* args[])
     SDL_Rect p5 = {348, 210, 16, 64}; //preenchimento5
     SDL_RenderFillRect(ren, &p5);
     
+    //contorno
     SDL_SetRenderDrawColor(ren, 0,0,0,0x00);
     SDL_Rect r1 = {332,194, 16,96}; //quadrado1
     SDL_RenderFillRect(ren, &r1);
@@ -141,7 +143,6 @@ int main (int argc, char* args[])
     SDL_RenderDrawPoint(ren, 580, 154);
     SDL_RenderDrawPoint(ren, 632, 186);
     SDL_RenderDrawPoint(ren, 624, 210);
-
     SDL_RenderPresent(ren);
     SDL_Delay(5000);
 
