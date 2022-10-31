@@ -2,7 +2,9 @@
 #include <SDL2/SDL.h>
 
 ```
+
 ```
+
 int main (int argc, char* args[])
 {
     /* INICIALIZACAO */
@@ -11,8 +13,7 @@ int main (int argc, char* args[])
                          SDL_WINDOWPOS_UNDEFINED,
                          SDL_WINDOWPOS_UNDEFINED,
                          1000, 500, SDL_WINDOW_SHOWN);
-    SDL_Renderer* ren = SDL_CreateRenderer(win, -1, 0);
-    
+    SDL_Renderer* ren = SDL_CreateRenderer(win, -1, 0);    
 ```
 
     /* EXECUÇÃO */
