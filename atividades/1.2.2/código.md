@@ -6,10 +6,10 @@ int main (int argc, char* args[])
 {
     //INICIALIZACAO 
     SDL_Init(SDL_INIT_EVERYTHING);
-    SDL_Window* win = SDL_CreateWindow("amongas",
+    SDL_Window* win = SDL_CreateWindow("oh no",
                          SDL_WINDOWPOS_UNDEFINED,
                          SDL_WINDOWPOS_UNDEFINED,
-                         700, 500, SDL_WINDOW_SHOWN);
+                         600, 500, SDL_WINDOW_SHOWN);
     SDL_Renderer* ren = SDL_CreateRenderer(win, -1, 0);    
     
 
