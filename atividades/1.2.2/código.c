@@ -1,4 +1,3 @@
-~~~ruby
 #include <SDL2/SDL.h>
 #include <SDL2/SDL2_gfxPrimitives.h>
 
@@ -50,4 +49,3 @@ int main (int argc, char* args[])
     SDL_DestroyWindow(win);
     SDL_Quit();
 }
-~~~
