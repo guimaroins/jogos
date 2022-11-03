@@ -1,4 +1,3 @@
-~~~ruby
 #include <SDL2/SDL.h>
 
 int main (int argc, char* args[])
@@ -152,4 +151,3 @@ int main (int argc, char* args[])
     SDL_DestroyWindow(win);
     SDL_Quit();
 }
-~~~
