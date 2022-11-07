@@ -1,5 +1,4 @@
 #include <SDL2/SDL.h>
-#include <math.h>
 
 int main (int argc, char* args[])
 {
