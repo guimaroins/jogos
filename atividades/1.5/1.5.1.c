@@ -22,7 +22,7 @@ int main (int argc, char* args[])
 
     while (1) {
     
-        SDL_PollEvent(&evt);              //fecha a janela
+        SDL_PollEvent(&evt); //fecha a janela
         if(evt.type == SDL_QUIT) {break;}
     
         SDL_SetRenderDrawColor(ren, 0xFF,0xFF,0xFF,0x00);
@@ -57,14 +57,14 @@ int main (int argc, char* args[])
                         r1.x += 5;
                         break;}}
             
-      if(evt.type == SDL_MOUSEMOTION){  //retângulo grudado no mouse
+            if(evt.type == SDL_MOUSEMOTION){  //retângulo grudado no mouse
                 int x, y;
                 SDL_GetMouseState(&x, &y);
                 r2.x = x;
                 r2.y = y;}}
         
-      else {		  //retângulo ciclo
-            espera = 20;
+        else {		  //retângulo ciclo
+            espera = 10;
 	    if (r.x >= 250){
         	if (r.y >= 250) {r.x+=1; r.y-=1;}
     		if (r.y < 250) {r.x-=1; r.y-=1;}}
@@ -77,12 +77,12 @@ int main (int argc, char* args[])
     	    if (r.y<0) {r.y=0;}
 	    if (r.y>500) {r.y=500;}
 	    
-	    re += 78;
-	    b += 50;
-	    g += 32;
-    	    if (re >= 255) {re = g - 30;}
-	    if (b >= 255) {b = 85;}
-	    if (g >= 255) {g = 47;}
+	    re += 3;
+	    b += 1;
+	    g += 2;
+    	    if (re >= 255) {re = g - 5;}
+	    if (b >= 255) {b = g;}
+	    if (g >= 255) {g = 5;}
 	    SDL_RenderPresent(ren);}}
 
 SDL_DestroyRenderer(ren); //finalização
